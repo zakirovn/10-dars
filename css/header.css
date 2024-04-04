@@ -1,0 +1,32 @@
+.header {
+  background-image: url(../images/image-hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.header__container {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+}
+.site-logo {
+}
+.site-logo__image {
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 3.2rem;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  color: white;
+  font-weight: 500;
+  font-style: 1.3rem;
+}
