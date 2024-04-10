@@ -11,19 +11,10 @@
   align-items: center;
   justify-content: space-between;
 }
-.container {
-}
-.site-logo {
-}
-.site-logo__image {
-}
-.sitenav {
-}
+
 .sitenav__list {
   display: flex;
   gap: 3.2rem;
-}
-.sitenav__item {
 }
 .sitenav__link {
   color: white;
