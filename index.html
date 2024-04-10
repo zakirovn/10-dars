@@ -1,36 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crovded</title>
-    <!-- Style  -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- HEADER START  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CROWDFUND</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
+  </head>
+  <body>
+    <!-- HEADER START -->
     <header class="header">
-        <div class="header__container container">
-            <!-- LOGO -->
-            <a href="./index.html" class="site-logo">
-                <img class="site-logo__image" src="./images/logo.svg" alt="">
-            </a>
+      <div class="header__container container">
+        <a class="site__logo" href="./index.html"
+          ><img class="site__logo-img" src="./images/logo.svg" alt=""
+        /></a>
 
-            <nav class="sitenav">
-                <ul class="sitenav__list">
-                    <li class="sitenav__item">
-                        <a href="#" class="sitenav__link">About</a>
-                    </li>
-                    <li class="sitenav__item">
-                        <a href="#" class="sitenav__link">Discover</a>
-                    </li>
-                    <li class="sitenav__item">
-                        <a href="#" class="sitenav__link">Get Started</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="sitenav">
+          <ul class="sitenav-list">
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">About</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Discover</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Get Started</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__button">
+          <img
+            class="header__button-icon"
+            src="./images/icon-hamburger.svg"
+            alt=""
+            width="16"
+            height="16"
+          />
+        </button>
+        <!-- TOOGLE NAVBAR -->
+      </div>
     </header>
     <!-- HEADER END -->
-</body>
+
+    <!-- MAIN START -->
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container main-section container">
+          <div class="mastercraft">
+            <img
+              class="hero__container-icon"
+              src="./images/logo-mastercraft.svg"
+              alt=""
+              width="56"
+              height="56"
+            />
+          </div>
+          <div class="hero__conteiner__text">
+            <h1 class="hero__container__text-title">
+              Mastercraft Bamboo Monitor Riser
+            </h1>
+            <p class="hero__container__text-description">
+              A beautiful & handcrafted monitor stand to reduce neck and eye
+              strain.
+            </p>
+          </div>
+          <div class="hero__container__btns">
+            <button class="hero__container__btns-button btn">
+              Back this project
+            </button>
+            <div class="hero__container__btns-bookmark">
+              <img
+                class="hero__container__btns-bookmark-img"
+                src="./images/icon-bookmark.svg"
+                alt=""
+                width="56"
+                height="56"
+              />
+              <span class="bookmark">Bookmark</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="statistika">
+        <div class="statistika__container container main-section">
+          <div class="numbers">
+            <div class="price">
+              <h2 class="price-number">$89,914</h2>
+              <p class="price-text">of $100,000 backed</p>
+            <div class="price-mobile-border"></div>
+            </div>
+            <div class="price">
+              <h2 class="price-number">5,007</h2>
+              <p class="price-text">total backers</p>
+            <div class="price-mobile-border"></div>
+            </div>
+            <div class="price">
+              <h2 class="price-number">56</h2>
+              <p class="price-text">days left</p>
+            </div>
+          </div>
+          <div class="line__graf">
+          </div>
+        </div>
+      </section>
+      <div class="about-project main-section container">
+        <div class="about-project__description">
+          <h1 class="about-project__description__title">About this project</h1>
+          <p class="about-project__description__subtitle">
+            The Mastercraft Bamboo Monitor Riser is a sturdy and stylish
+            platform that elevates your screen to a more comfortable viewing
+            height. Placing your monitor at eye level has the potential to
+            improve your posture and make you more comfortable while at work,
+            helping you stay focused on the task at hand.
+          </p>
+          <p class="about-project__description__subtitle">
+            Featuring artisan craftsmanship, the simplicity of design creates
+            extra desk space below your computer to allow notepads, pens, and
+            USB sticks to be stored under the stand.
+          </p>
+        </div>
+
+        <div class="about-project__cards main-section">
+          <div class="about-project__card">
+            <div class="about-project__card__title">
+              <h5>Bamboo Stand</h5>
+              <p>Pledge $25 or more</p>
+            </div>
+            <p class="about-project__card__subtitle">
+              You get an ergonomic stand made of natural bamboo. You've helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <div class="about-project__card__buttons">
+              <h4>101 <span>left</span></h4>
+              <button class="button-card">select revard</button>
+            </div>
+          </div>
+          <div class="about-project__card">
+            <div class="about-project__card__title">
+              <h5>Black Edition Stand</h5>
+              <p>Pledge $75 or more</p>
+            </div>
+            <p class="about-project__card__subtitle">
+              You get an ergonomic stand made of natural bamboo. You've helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <div class="about-project__card__buttons">
+              <h4>64 <span>left</span></h4>
+              <button class="button-card">select revard</button>
+            </div>
+          </div>
+          <div class="about-project__card about-project__card__disebled">
+            <div class="about-project__card__title">
+              <h5>Mahogany Special Edition</h5>
+              <p>Pledge $200 or more</p>
+            </div>
+            <p class="about-project__card__subtitle">
+              You get an ergonomic stand made of natural bamboo. You've helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <div class="about-project__card__buttons">
+              <h4>0 <span>left</span></h4>
+              <button class="button-card disebled-btn">select revard</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer"></footer>
+    <!-- FOOTER END -->
+  </body>
 </html>

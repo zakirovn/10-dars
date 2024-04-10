@@ -1,0 +1,11 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #3cb3ab;
+    --disabled-color: #979797;
+    --text-color: #7a7a7a;
+    --main-bg-color: #fafafa;
+    --markbook-bg-color: rgba (47, 47, 47, 0.05);
+    --main-font: "Commissioner", sans-serif;
+    --button-color: #147a72;
+  }
